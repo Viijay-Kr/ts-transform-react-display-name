@@ -1,0 +1,26 @@
+{
+  "name": "ts-transform-react-display-name",
+  "version": "0.0.1",
+  "module": "dist/transform.cjs",
+  "main": "dist/transform.cjs",
+  "files": ["dist"],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.3",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "esm": "^3.2.25",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-node": "^10.9.2",
+    "ts-patch": "^3.1.2",
+    "tsup": "^8.0.2"
+  },
+  "scripts": {
+    "build:examples": "tspc --p tsconfig.examples.json",
+    "build": "tsup",
+    "release": "bun run build && changeset publish",
+    "changeset": "changeset"
+  },
+  "type": "module"
+}
