@@ -1,9 +1,11 @@
 {
   "name": "ts-transform-react-display-name",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "module": "dist/transform.cjs",
   "main": "dist/transform.cjs",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@changesets/cli": "^2.27.3",
     "@types/bun": "latest",
