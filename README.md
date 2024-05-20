@@ -16,7 +16,7 @@ Works with [tspc](https://github.com/nonara/ts-patch), [awesome-typescript-loade
 
 ### Prerequisites
 
-`npm install tspc -D`
+`npm install tspc ts-transform-react-display-name -D`
 
 ### TS Config
 

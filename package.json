@@ -2,6 +2,10 @@
   "name": "ts-transform-react-display-name",
   "version": "0.1.0",
   "module": "dist/transform.cjs",
+  "repository": {
+    "url": "https://github.com/Viijay-Kr/ts-transform-react-display-name",
+    "directory": "main"
+  },
   "main": "dist/transform.cjs",
   "files": [
     "dist"
