@@ -1,5 +1,11 @@
 # ts-transform-react-display-name
 
+## 0.1.3
+
+### Patch Changes
+
+- 9d00a9a: fix read me examples path
+
 ## 0.1.2
 
 ### Patch Changes
