@@ -6,11 +6,11 @@ Works with [tspc](https://github.com/nonara/ts-patch), [awesome-typescript-loade
 
 ## Supports
 
-- [Arrow function components](./examples/arrow_functions.tsx)
-- [Normal function components](./examples/function_components.tsx)
-- [Forward ref components](./examples/forwardref_like.tsx)
-- [Memoized components](./examples/memo_like.tsx)
-- [Return Expression Variations](./examples/return_expression_like.tsx)
+- [Arrow function components](/blob/examples/arrow_functions.tsx)
+- [Normal function components](/blob/examples/function_components.tsx)
+- [Forward ref components](/blob/examples/forwardref_like.tsx)
+- [Memoized components](/blob/examples/memo_like.tsx)
+- [Return Expression Variations](/blob/examples/return_expression_like.tsx)
 
 ## Usage
 
