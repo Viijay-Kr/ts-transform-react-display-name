@@ -10,7 +10,7 @@ export default function (
     const { factory } = ctx;
     return (sourceFile: ts.SourceFile) => {
       const displayNames: Array<ts.ExpressionStatement> = [];
-
+      const prefix = config.prefix ? `${config.prefix}_` : "";
       function createDisplayNameStatements(
         parent: ts.VariableDeclaration | ts.FunctionDeclaration
       ) {
@@ -22,9 +22,7 @@ export default function (
                 factory.createIdentifier("displayName")
               ),
               factory.createToken(tsInstance.SyntaxKind.EqualsToken),
-              factory.createStringLiteral(
-                `${config.prefix}_${parent.name.getText()}`
-              )
+              factory.createStringLiteral(`${prefix}${parent.name.getText()}`)
             )
           );
           displayNames.push(displayNameNode);
