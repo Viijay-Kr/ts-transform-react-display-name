@@ -2,7 +2,7 @@
 
 Typescript [transformer](https://github.com/itsdouges/typescript-transformer-handbook) plugin for appending [display name](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/display-name.md) property to React Components.
 
-Works with [tspc](https://github.com/nonara/ts-patch), [awesome-typescript-loader](https://github.com/s-panferov/awesome-typescript-loader#getcustomtransformers-string--program-tsprogram--tscustomtransformers--undefined-defaultundefined), [ts-loader](https://github.com/TypeStrong/ts-loader#getcustomtransformers), (until typescript comes up with built in support).
+Works with [tspc](https://github.com/nonara/ts-patch), [awesome-typescript-loader](https://github.com/s-panferov/awesome-typescript-loader#getcustomtransformers-string--program-tsprogram--tscustomtransformers--undefined-defaultundefined), [ts-loader](https://github.com/TypeStrong/ts-loader#getcustomtransformers), (until typescript comes up with built in [support](https://github.com/microsoft/TypeScript/issues/54276)).
 
 ## Supports
 
