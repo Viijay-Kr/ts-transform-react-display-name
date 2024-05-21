@@ -6,11 +6,11 @@ Works with [tspc](https://github.com/nonara/ts-patch), [awesome-typescript-loade
 
 ## Supports
 
-- [Arrow function components](/blob/main/examples/arrow_functions.tsx)
-- [Normal function components](/blob/main/examples/function_components.tsx)
-- [Forward ref components](/blob/main/examples/forwardref_like.tsx)
-- [Memoized components](/blob/main/examples/memo_like.tsx)
-- [Return Expression Variations](/blob/main/examples/return_expression_like.tsx)
+- [Arrow function components](https://github.com/Viijay-Kr/ts-transform-react-display-name/blob/main/examples/arrow_functions.tsx)
+- [Normal function components](https://github.com/Viijay-Kr/ts-transform-react-display-name/blob/main/examples/function_components.tsx)
+- [Forward ref components](https://github.com/Viijay-Kr/ts-transform-react-display-name/blob/main/examples/forwardref_like.tsx)
+- [Memoized components](https://github.com/Viijay-Kr/ts-transform-react-display-name/blob/main/examples/memo_like.tsx)
+- [Return Expression Variations](https://github.com/Viijay-Kr/ts-transform-react-display-name/blob/main/examples/return_expression_like.tsx)
 
 ## Usage
 
