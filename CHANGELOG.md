@@ -1,5 +1,11 @@
 # ts-transform-react-display-name
 
+## 0.1.2
+
+### Patch Changes
+
+- 26b7253: empty prefix when not provided in config
+
 ## 0.1.1
 
 ### Patch Changes
